@@ -1,0 +1,24 @@
+{
+    "name": "biblioteca-api",
+    "version": "1.0.0",
+    "description": "API para gestión de biblioteca",
+    "main": "index.js",
+    "scripts": {
+      "dev": "vercel dev",
+      "build": "vercel build",
+      "start": "vercel start",
+      "deploy": "vercel --prod"
+    },
+    "dependencies": {
+      "vercel": "^28.4.0" 
+    },
+    "devDependencies": {
+      "dotenv": "^10.0.0"  
+    },
+    "engines": {
+      "node": "16.x"  
+    },
+    "author": "Tu Nombre",
+    "license": "MIT"
+  }
+  

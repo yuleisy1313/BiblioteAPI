@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      { "src": "/api/autores", "dest": "/api/autores.js" },
+      { "src": "/api/libros", "dest": "/api/libros.js" },
+      { "src": "/api/disponibles", "dest": "/api/disponibles.js" },
+      { "src": "/api/titulo", "dest": "/api/titulo.js" },
+      { "src": "/api", "dest": "/api/index.js" }
+    ]
+  }
+  
